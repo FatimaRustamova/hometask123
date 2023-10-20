@@ -26,6 +26,12 @@ nav ul li {
     margin-left: 30px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 10px;
+}
+nav li:hover{
+    border-radius: 30px;
+    background-color: chocolate;
+    color: black;
     cursor: pointer;
 }
 nav ul li a{
@@ -161,8 +167,17 @@ section {
 }
 .sun div:hover{
     cursor: pointer;
-    color: chocolate;
+    
 }
+
+.sun div:hover h4{
+    color: red;
+}
+
+.sun div:hover i{
+    color: red;
+}
+
 .sun div i{
     font-size: 45px;
     margin-left: 10px;
@@ -310,9 +325,9 @@ section {
 @media screen and (max-width: 576px) {
     nav {
         width: 100%;
-        position: fixed;
+        position: fixed;    
     }
-    ul {
+    nav ul {
         display: none;
     }
     nav i {
